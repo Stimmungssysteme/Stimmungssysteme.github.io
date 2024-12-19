@@ -2621,6 +2621,10 @@ textarea.w-input, textarea.w-select {
   outline: 2px solid #0050bd;
 }
 
+.nav-link.rechts {
+  font-size: 13px;
+}
+
 .nav-dropdown {
   margin-left: 5px;
   margin-right: 5px;
@@ -2782,7 +2786,6 @@ textarea.w-input, textarea.w-select {
 .nav-menu-three {
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
   display: flex;
 }
 
@@ -2807,6 +2810,7 @@ textarea.w-input, textarea.w-select {
 .text-block {
   color: var(--testvariable);
   font-family: Poppins, sans-serif;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -4053,6 +4057,13 @@ textarea.w-input, textarea.w-select {
 .div-block-76, .div-block-77, .div-block-78, .div-block-79 {
   flex-flow: column;
   justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-80 {
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
