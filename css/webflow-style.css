@@ -2940,7 +2940,7 @@ textarea.w-input, textarea.w-select {
   flex-flow: row;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 70vw;
+  width: 70vw;
   margin-bottom: 25px;
   font-family: Poppins, sans-serif;
   font-size: 20px;
